@@ -1,7 +1,11 @@
 body{
-  background-color: blue;
+  background-color: rgb(2, 74, 2);
 }
 
 h1{
-  color: aliceblue;
+  font-size: 20vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
