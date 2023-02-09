@@ -1,3 +1,1 @@
 # VerticalGarden
-
-hello
