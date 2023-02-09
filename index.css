@@ -4,6 +4,8 @@
 
 body{
   background-color: rgb(2, 74, 2);
+  margin: 0;
+  padding: 0;
 }
 
 /* navbar */
@@ -30,57 +32,39 @@ nav > a:hover {
   color: #bbb;
 }
 /* HomePage */
-h1{
-  font-size: 20vmin;
+#hero-vid {
+  width: 100%;
+}
+
+/* sub-hero */
+
+#sub-hero-section {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
+  justify-content: space-evenly;
+  height: auto;
+  width: 50%;
+  margin-left: 25%;
 }
 
-/* test a */
-#more {
-  display: none;
-  margin: 5vh 20vw;
-  cursor: pointer;
-  background-color: rgba(0, 0, 0, .4);
+.sub-hero {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  flex-wrap: wrap;
+  height: 150px;
 }
 
-#testb-dots {
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  color: black;
-  width: 20px;
-  height: 20px;
-  border: 2px solid green;
-  border-radius: 50%;
-
-  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-	transform: scale(1);
-	animation: pulse 1.5s infinite;
+.sub-hero > h2 {
+  margin: 15px;
+  text-align: center;
 }
 
-body > div {
-  display: flex;
-  justify-content: center;
+.sub-hero > p {
+  margin: 15px;
+  text-align: center;
 }
 
-@keyframes pulse {
-	0% {
-		transform: scale(0.9);
-		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
-	}
-
-	70% {
-		transform: scale(1.1);
-		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
-	}
-
-	100% {
-		transform: scale(0.9);
-		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-	}
+.sub-hero > img {
+  height: 150px;
+  width: auto;
+  margin-left: 4vw;
 }
