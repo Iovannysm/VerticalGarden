@@ -52,6 +52,8 @@ div > img {
   height: 40vh;
   background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url("https://as2.ftcdn.net/v2/jpg/05/61/05/03/1000_F_561050331_wcCDuc0sNbYbrPNuWqtMV5giZGWa87ml.jpg");
   background-size: cover;
+  padding-top: 3.5vh;
+  padding-bottom: 2.5vh;
 }
 
 .sub-hero {
@@ -86,13 +88,14 @@ div > img {
   width: 70%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 2% 5% 0 10%;
+  margin: 3% 5% 0 10%;
+  font-size: 18px;
 }
 
 
 #home-body > img {
   height: auto;
-  width: 30vw;
+  width: 35vw;
   grid-row: 1 / 5;
 }
 
@@ -118,7 +121,7 @@ div > img {
   color: #FAFAF7;
   border: none;
   border-radius: 9px;
-  margin: 10px;
+  margin: 5px 10px;
 }
 
 #buy-now:active {
@@ -131,7 +134,7 @@ div > img {
 
 hr { 
   width: 80vw;
-  margin: auto !important;
+  margin: 6vh auto 1.5vh !important;
 } 
 
 /* sub-body */
@@ -150,7 +153,7 @@ hr {
 }
 
 .sub-body > img {
-  height: 15vw;
+  height: 19vw;
   width: auto;
   margin-left: 4vw;
   margin-top: 2vw;
@@ -162,10 +165,6 @@ hr {
   /* cursor: pointer; */
   box-shadow: 12px 12px 2px 1px rgba(12, 128, 4, 0.2);
 }
-/* 
-.sub-body > img:active {
-  transform: scale3d(1, 1.2, 0.3);
-} */
 
 
 /* footer */
@@ -197,9 +196,14 @@ footer > div > img {
   cursor: pointer;
 }
 
+.join {
+  font-size: 18px;
+}
+
 #emailInput {
-  width: 14vw;
+  width: 16vw;
   height: 4vh;
+  text-align: center;
 }
 
 .social-media {
