@@ -61,20 +61,16 @@ nav > a:hover {
   height: 150px;
 }
 
-.sub-hero > h2 {
-  margin: 15px;
-  text-align: center;
-}
-
-.sub-hero > p {
-  margin: 15px;
-  text-align: center;
-}
-
 .sub-hero > img {
-  height: 150px;
+  height: 15vw;
   width: auto;
   margin-left: 4vw;
+  margin-top: 2vw;
+}
+
+.sub-hero > img:hover {
+  transform: scale(1.1);
+  transition: .2s;
 }
 
 /* home body */
