@@ -1,9 +1,8 @@
 * {
-  color: white;
+  background-color: #FAFAF7 !important;
 }
 
 body{
-  background-color: rgb(2, 74, 2);
   margin: 0;
   padding: 0;
 }
@@ -29,7 +28,7 @@ nav > a {
 }
 nav > a:hover {
   background-color: #222;
-  color: #bbb;
+  color: #31352;
 }
 /* HomePage */
 #hero-vid {
@@ -67,4 +66,48 @@ nav > a:hover {
   height: 150px;
   width: auto;
   margin-left: 4vw;
+}
+
+/* home body */
+
+#home-body {
+  height: 60%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 15% 15%;
+  padding-right: 20%;
+}
+
+#home-body > img {
+  height: 60%;
+  width: auto;
+  grid-row: 1 / 5;
+}
+
+#home-body > h2 {
+  margin-left: 20%;
+  margin-top: -5%
+}
+
+#home-body > p {
+  margin-top: 5%;
+  margin-left: 20%;
+}
+
+#home-body > div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 240%
+}
+
+#home-body > div > button {
+  height: 50px;
+  width: 100px;
+  background-color: #E55934;
+  color: #FAFAF7;
+  border: none;
+  border-radius: 9px;
+  margin: 50px;
 }
