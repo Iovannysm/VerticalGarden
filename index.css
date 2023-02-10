@@ -66,11 +66,17 @@ div > img {
   width: auto;
   margin-left: 4vw;
   margin-top: 2vw;
+  transition: all .3s ease-in-out;
 }
 
 .sub-hero > img:hover {
   transform: scale(1.1);
-  transition: .2s;
+  cursor: pointer;
+  box-shadow: 12px 12px 2px 1px rgba(12, 128, 4, 0.2);
+}
+
+.sub-hero > img:active {
+  transform: scale3d(1, 1.2, 0.3);
 }
 
 /* home body */
@@ -82,6 +88,7 @@ div > img {
   grid-template-columns: 1fr 1fr;
   margin: 2% 5% 0 10%;
 }
+
 
 #home-body > img {
   height: auto;
@@ -104,7 +111,7 @@ div > img {
   align-items: flex-end;
 }
 
-#home-body > div > button {
+#buy-now {
   height: 50px;
   width: 100px;
   background-color: #E55934 !important;
@@ -112,6 +119,12 @@ div > img {
   border: none;
   border-radius: 9px;
   margin: 10px;
+}
+
+#buy-now:active {
+  background-color: #953b22 !important;
+  transition: all .01s ease-in-out;
+  transform: scale(0.95);
 }
 
 /* below body */
@@ -125,9 +138,42 @@ hr {
 /* footer */
 
 footer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
   position: relative;
   bottom: 0;
   left: 0;
+  padding: 2vw 6vw;
   width: 100%;
   background: #BED74C;
+  font-weight: 600;
 }
+
+footer > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer p {
+  cursor: pointer;
+}
+
+footer > div > img {
+  width: 13vw;
+  cursor: pointer;
+}
+
+.social-media {
+  height: 30px;
+  width: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+footer div button {
+  width: 7vw;
+  height: 2vw;
+  color: red;
+  border-color: red;
+}
+
