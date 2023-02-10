@@ -40,7 +40,7 @@ nav > a:hover {
   color: #31352E;
 }
 /* Hero */
-#hero-vid {
+div > img {
   width: 100%;
 }
 
@@ -49,9 +49,9 @@ nav > a:hover {
 #sub-hero-section {
   display: flex;
   justify-content: space-evenly;
-  height: auto;
-  width: 50%;
-  margin-left: 25%;
+  height: 40vh;
+  background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url("https://as2.ftcdn.net/v2/jpg/05/61/05/03/1000_F_561050331_wcCDuc0sNbYbrPNuWqtMV5giZGWa87ml.jpg");
+  background-size: cover;
 }
 
 .sub-hero {
@@ -80,7 +80,7 @@ nav > a:hover {
   width: 70%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 15% 5% 0 10%;
+  margin: 2% 5% 0 10%;
 }
 
 #home-body > img {
