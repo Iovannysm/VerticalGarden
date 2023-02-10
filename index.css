@@ -1,6 +1,6 @@
-* {
+/* * {
   background-color: #FAFAF7 !important;
-}
+} */
 
 body{
   margin: 0;
@@ -11,12 +11,21 @@ body{
 nav{
   width: 100%;
   height: 57px;
-  background-color: black;
+  background-color: #BED74C !important ;
   position: fixed;
   top: 0;
   left: 0;
   padding: 0;
 }
+.container-fluid{
+  background-color: #BED74C;
+  padding: 0;
+}
+
+.navbar.bg-body-tertiary {
+  background-color: #BED74C;
+}
+
 nav > a {
   font-size: 25px;
   text-decoration: none;
@@ -28,7 +37,7 @@ nav > a {
 }
 nav > a:hover {
   background-color: #222;
-  color: #31352;
+  color: #31352E;
 }
 /* HomePage */
 #hero-vid {
@@ -105,9 +114,10 @@ nav > a:hover {
 #home-body > div > button {
   height: 50px;
   width: 100px;
-  background-color: #E55934;
+  background-color: #E55934 !important;
   color: #FAFAF7;
   border: none;
   border-radius: 9px;
   margin: 50px;
 }
+
