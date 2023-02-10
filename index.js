@@ -1,4 +1,5 @@
 function emailButton() {
   emailEl = document.getElementById('emailInput');
-  emailEl.textContent = ''
+  emailEl.placeHolder = "EMAIL";
+  console.log(emailEl);
 }
