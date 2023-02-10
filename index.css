@@ -134,6 +134,39 @@ hr {
   margin: auto !important;
 } 
 
+/* sub-body */
+
+#sub-body-section {
+  display: flex;
+  justify-content: space-evenly;
+  height: 40vh;
+}
+
+.sub-body {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  flex-wrap: wrap;
+  height: 150px;
+}
+
+.sub-body > img {
+  height: 15vw;
+  width: auto;
+  margin-left: 4vw;
+  margin-top: 2vw;
+  transition: all .3s ease-in-out;
+}
+
+.sub-body > img:hover {
+  transform: scale(1.1);
+  /* cursor: pointer; */
+  box-shadow: 12px 12px 2px 1px rgba(12, 128, 4, 0.2);
+}
+/* 
+.sub-body > img:active {
+  transform: scale3d(1, 1.2, 0.3);
+} */
+
 
 /* footer */
 
@@ -164,12 +197,18 @@ footer > div > img {
   cursor: pointer;
 }
 
+#emailInput {
+  width: 14vw;
+  height: 4vh;
+}
+
 .social-media {
   height: 30px;
   width: 30px;
   margin-bottom: 10px;
   cursor: pointer;
 }
+
 footer div button {
   width: 7vw;
   height: 2vw;
