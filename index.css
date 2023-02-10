@@ -39,7 +39,7 @@ nav > a:hover {
   background-color: #222;
   color: #31352E;
 }
-/* HomePage */
+/* Hero */
 #hero-vid {
   width: 100%;
 }
@@ -84,22 +84,20 @@ nav > a:hover {
   width: 70%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 15% 5%;
+  margin: 15% 5% 0 10%;
 }
 
 #home-body > img {
-  height: 60%;
-  width: auto;
+  height: auto;
+  width: 30vw;
   grid-row: 1 / 5;
 }
 
-#home-body > h2 {
-  margin-left: 20%;
-  margin-top: -5%
+#home-body > h4 {
+  margin-left: 3vw;
 }
 
-#home-body > p {
-  margin-top: 5%;
+#home-body > ol {
   margin-left: 3vw;
   width: 40vw;
 }
@@ -120,3 +118,20 @@ nav > a:hover {
   margin: 10px;
 }
 
+/* below body */
+
+hr { 
+  width: 80vw;
+  margin: auto !important;
+} 
+
+
+/* footer */
+
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #BED74C;
+}
