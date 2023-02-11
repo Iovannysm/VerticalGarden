@@ -89,6 +89,14 @@ nav > a:hover {
   color: #31352E;
 }
 
+.user-icon {
+  height: 30px;
+  width: auto;
+  border-radius: 50%;
+  margin-right: 1vw;
+  margin-left: .5vw;
+}
+
 .google-icon {
   height: 20px;
   width: auto;
