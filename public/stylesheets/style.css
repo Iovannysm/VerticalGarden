@@ -70,27 +70,32 @@ nav ul {
   display: flex;
   justify-content: flex-end;
   font-size: 20px;
+  margin: 7px;
 }
 
 .nav-shop {
-  margin: 0 1vw 0 23vw;
+  margin: 0 5vw;
 }
 
 .nav-community {
-  margin: 0 1vw;
+  margin: 0 2vw;
 }
 
 .nav-about-us {
-  margin: 0 1vw;
+  margin: 0 5vw;
 }
 
 .nav-search {
-  margin: 0 3vw;
+  margin: 0 1vw;
+}
+
+.nav-search input {
+  width: 12vw;
 }
 
 .nav-icon {
-  height: 20px;
-  margin: 0;
+  height: 18px;
+  margin: 5px .4vw;
 }
 
 .nav-link {
@@ -99,7 +104,8 @@ nav ul {
 
 .nav-logo {
   float: left;
-  margin: 1vw;
+  margin: 5px 1vw 5px 5vw;
+  height: 30px;
 }
 
 nav ul li{
