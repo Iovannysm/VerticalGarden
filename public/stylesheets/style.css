@@ -16,6 +16,7 @@ nav{
   top: 0;
   left: 0;
   padding: 0;
+  z-index: 80;
 }
 
 nav ul {
@@ -89,6 +90,14 @@ nav > a:hover {
   color: #31352E;
 }
 
+.user-icon {
+  height: 30px;
+  width: auto;
+  border-radius: 50%;
+  margin-right: 1vw;
+  margin-left: .5vw;
+}
+
 .google-icon {
   height: 20px;
   width: auto;
@@ -98,6 +107,39 @@ nav > a:hover {
 /* Hero */
 div > img {
   width: 100%;
+}
+
+.hero-inside {
+  position: relative;
+  text-align: center;
+  margin-top: -15vw;
+  color: #FAFAF7;
+}
+
+.hero-button {
+  background-color: #E55934;
+  border-radius: 5px;
+  height: 3.7vw;
+  width: 13.3vw;
+  border-color: #E55934;
+  color: #FAFAF7;
+  font-size: 1.3vw;
+  margin: 8.8vw 9vw 2.5vw auto;
+}
+
+.hero-button:hover {
+  background-color: #fb6840;
+}
+
+.hero-button:active {
+  background-color: #E55934;
+  transition: all .01s ease-in-out;
+  transform: scale(0.98);
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* sub-hero */
@@ -178,6 +220,10 @@ div > img {
   border: none;
   border-radius: 9px;
   margin: 5px 10px;
+}
+
+#buy-now:hover {
+  background-color: #fb6840 !important;
 }
 
 #buy-now:active {
@@ -275,4 +321,3 @@ footer div button {
   color: red;
   border-color: red;
 }
-
