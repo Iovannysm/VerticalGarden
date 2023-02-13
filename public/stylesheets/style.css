@@ -75,21 +75,6 @@ nav > ul a {
   background-color: #BED74C;
 }
 
-nav > a {
-  font-size: 25px;
-  text-decoration: none;
-  float: left;
-  padding: 14px 16px;
-  display: block;
-  text-align: center;
-  overflow: hidden;
-}
-
-nav > a:hover {
-  background-color: #222;
-  color: #31352E;
-}
-
 .user-icon {
   height: 30px;
   width: auto;
@@ -101,7 +86,7 @@ nav > a:hover {
 .google-icon {
   height: 20px;
   width: auto;
-  margin: 0;
+  margin: .3vw;
 }
 
 /* Hero */
@@ -320,4 +305,20 @@ footer div button {
   height: 2vw;
   color: red;
   border-color: red;
+}
+
+
+/* Still working on */
+
+.still-growing {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/702/357/original/watercolor-botanical-rectangle-frame-vector.jpg");
+  height: 35vw;
+  color: #31352E;
+  width: auto;
+  background-size: 100vw 35vw;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5vw;
 }
