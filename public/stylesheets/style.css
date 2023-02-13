@@ -66,6 +66,53 @@ nav ul li{
   display: inline-block;
 }
 
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  margin: 7px;
+}
+
+.nav-shop {
+  margin: 0 5vw;
+}
+
+.nav-community {
+  margin: 0 2vw;
+}
+
+.nav-about-us {
+  margin: 0 5vw;
+}
+
+.nav-search {
+  margin: 0 1vw;
+}
+
+.nav-search input {
+  width: 12vw;
+}
+
+.nav-icon {
+  height: 18px;
+  margin: 5px .4vw;
+}
+
+.nav-link {
+  display: flex;
+}
+
+.nav-logo {
+  float: left;
+  margin: 5px 1vw 5px 5vw;
+  height: 30px;
+}
+
+nav ul li{
+  text-decoration: none;
+  display: inline-block;
+}
+
 nav > ul a {
   text-decoration: none;
   color: #31352E;
@@ -84,6 +131,7 @@ nav > a {
   text-align: center;
   overflow: hidden;
 }
+
 
 nav > a:hover {
   background-color: #222;
