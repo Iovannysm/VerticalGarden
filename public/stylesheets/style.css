@@ -86,7 +86,7 @@ nav > ul a {
 .google-icon {
   height: 20px;
   width: auto;
-  margin: 0;
+  margin: .3vw;
 }
 
 /* Hero */
@@ -311,9 +311,14 @@ footer div button {
 /* Still working on */
 
 .still-growing {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/702/357/original/watercolor-botanical-rectangle-frame-vector.jpg");
+  height: 35vw;
+  color: #31352E;
+  width: auto;
+  background-size: 100vw 35vw;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 15vw;
   font-size: 5vw;
 }
