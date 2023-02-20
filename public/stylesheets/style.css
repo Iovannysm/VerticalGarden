@@ -206,6 +206,7 @@ div > img {
   border: none;
   border-radius: 9px;
   margin: 5px 10px;
+  cursor: pointer;
 }
 
 #buy-now:hover {
