@@ -110,6 +110,7 @@ div > img {
   color: #FAFAF7;
   font-size: 1.3vw;
   margin: 8.8vw 9vw 2.5vw auto;
+  cursor: pointer;
 }
 
 .hero-button:hover {
@@ -205,6 +206,7 @@ div > img {
   border: none;
   border-radius: 9px;
   margin: 5px 10px;
+  cursor: pointer;
 }
 
 #buy-now:hover {
@@ -275,6 +277,7 @@ footer > div {
 }
 
 footer p {
+  color:#31352E;
   cursor: pointer;
 }
 
@@ -305,6 +308,15 @@ footer div button {
   height: 2vw;
   color: red;
   border-color: red;
+  cursor: pointer;
+}
+
+footer div button:hover {
+  transform: scale(1.03);
+}
+
+footer div button:active {
+  transform: scale(0.98);
 }
 
 
